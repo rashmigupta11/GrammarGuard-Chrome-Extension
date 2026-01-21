@@ -2,6 +2,10 @@
 
 GrammarGuard is a lightweight, open-source browser extension that checks for grammar and spelling errors in text fields. It highlights mistakes and provides suggestions using the LanguageTool API.
 
+``` 
+Video Link: https://drive.google.com/file/d/18gwF5AUH5qyET9lrRcpSOkRG3XAFjdmJ/view?usp=sharing
+```
+
 ## 🚀 Features
 - **Real-time Detection:** Monitors text input in `<textarea>` and `<input>` fields.
 - **Privacy Focused:** Only sends text to the API when you stop typing (debounced).
