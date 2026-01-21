@@ -3,7 +3,7 @@
 GrammarGuard is a lightweight, open-source browser extension that checks for grammar and spelling errors in text fields. It highlights mistakes and provides suggestions using the LanguageTool API.
 
 ## Video Link: 
-```  https://drive.google.com/file/d/18gwF5AUH5qyET9lrRcpSOkRG3XAFjdmJ/view?usp=sharing ```
+```  https://drive.google.com/file/d/18gwF5AUH5qyET9lrRcpSOkRG3XAFjdmJ/view?usp=sharing          ```
 
 
 ## 🚀 Features
@@ -50,4 +50,3 @@ Since this is a developer version, you will install it manually using Chrome's "
 
 ---
 
-> **Disclaimer:** This extension is for educational purposes. Always review the privacy policy of any grammar checking API you use, as text is sent to a remote server for analysis.
