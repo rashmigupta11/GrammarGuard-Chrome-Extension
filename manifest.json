@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "GrammarGuard - Simple Grammar Checker",
+  "version": "1.0",
+  "description": "Detects grammar mistakes in text fields and suggests corrections.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.languagetool.org/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

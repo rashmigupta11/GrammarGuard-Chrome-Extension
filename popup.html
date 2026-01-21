@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 300px; font-family: 'Segoe UI', sans-serif; padding: 15px; }
+    h2 { color: #2c3e50; margin-top: 0; }
+    .status { margin-bottom: 15px; font-size: 14px; }
+    button {
+      background-color: #3498db; color: white; border: none;
+      padding: 10px 15px; border-radius: 4px; cursor: pointer; width: 100%;
+    }
+    button:hover { background-color: #2980b9; }
+    .note { font-size: 11px; color: #7f8c8d; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>GrammarGuard</h2>
+  <div class="status">Extension is: <strong>Active</strong></div>
+  <button id="toggleBtn">Disable Extension</button>
+  <p class="note">Powered by LanguageTool API</p>
+  <script src="popup.js"></script>
+</body>
+</html>
